@@ -1,7 +1,3 @@
-function oddCount(n){
-    if(n % 2 ==0) {
-        return n/2
-    } 
-    return (n+1)/2-1
-}
+oddCount = (n) => {return n % 2 == 0 ? n/2 : (n+1)/2-1}
+
 
